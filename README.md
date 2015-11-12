@@ -21,7 +21,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
 
 ###Built with 
 
-iscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
+![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
  * [FACT](http://www.fact.co.uk/projects/cloudmaker-making-minecraft-real.aspx) [CloudMaker](https://github.com/cheapjack/CloudMaker) Server
  * `Bukkit-1.7.2`
