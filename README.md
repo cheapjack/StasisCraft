@@ -5,6 +5,10 @@ Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2`
 
 ![stasiscraft1](https://cloud.githubusercontent.com/assets/128456/11131628/71af0ff4-8983-11e5-88ad-90708e86d6ee.png)
 
+###QuickStart
+
+To get to the StasisCraft zone you need to `/warp stasiscraft`
+
 ###Features
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
