@@ -16,7 +16,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
  * Auto changing Body Temperature and Blood Water Content Graphs
  * Hypothalamus Listener code
  * Shrimped Breadboard arduino analog inputs
- * Radio controlled minecraft
+ * Radio controlled minecraft `Science` buttons with `RF-Craft`
  * Redstone Homeostasis models
 
 ###Built with 
