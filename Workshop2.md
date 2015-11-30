@@ -15,7 +15,7 @@ Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2` with the server 
  * Explain the **Performing Thermoregulation game** again
  * Play through
 
-#####Thermo-Regulation Game
+####Thermo-Regulation Game
 
 to get to the StasisCraft zone you need to `/warp stasiscraft`
 
@@ -30,6 +30,8 @@ to get to the StasisCraft zone you need to `/warp stasiscraft`
 
 It's your job to be the stimulus in the system, in this case we are representing temperature through glass *silos* with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **too hot** ie the Dermis and other parts of the nervous system will send signals to the **Hypothalamus** to react.
 
+You will use the [RF-Craft](https://github.com/cheapjack/StasisCraft/blob/master/Workshop2.md#hypothalamus-radio) buttons like a **Hypothalamus radio** stimulaing the system to increase temperature, and then responding to the Hypothalamus alerts and commands. You need to **STIMULATE** then **LISTEN** to the feedback response or you will all die...
+
  * Use the `GREEN` & `YELLOW` RF-Craft Buttons to fill the 2 Temperature silos with sand. The trigger point is the centre top of each silo
  * Once we have triggered the response you need to wait from orders from Hypothalamus
  * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
@@ -38,7 +40,7 @@ It's your job to be the stimulus in the system, in this case we are representing
 ####Hypothalamus Team
 
  * CloudMaker07 - CloudMaker09 & CloudMaker 
-  * `warp hair`
+  * `/warp hair`
 
 This team are effectively the **Hypothalamus** team and act out in the game the  autonomous nervous system's response to rises in temperature. This is the start of the negative feedback 'system'
 
@@ -56,9 +58,9 @@ Primarily the team simulates the sweat response. Once the dermis is sufficiently
 
 Hypothalamus can call game over and we can break away from our computers and disconnect from the game.
 
-###Hypothalamus Radio
+###RF-Craft: The Hypothalamus Radio
 
-RF-Craft is a CloudMaker resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
+RF-Craft is a [CloudMaker](https://github.com/cheapjack/CloudMaker/) resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
 
 We are using the RF-Craft Buttons to trigger certain events:
  * RED - **Hypothalamus Alert** Builds a hypothalamus shaped redstone ore sphere as an alert
