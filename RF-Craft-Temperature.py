@@ -15,10 +15,15 @@ mcdrawing = minecraftstuff.MinecraftDrawing(mc)
 
 # use the default mac serial port, '/dev/tty.SLAB_USBtoUART' this will change platform to platform
 ser = serial.Serial('/dev/tty.SLAB_USBtoUART', 9600)
+#RED
 button1_received_on = "1,1\r\n"
+#YELLOW
 button2_received_on = "2,1\r\n"
+#GREEN
 button3_received_on = "3,1\r\n"
+#BLUE
 button4_received_on = "4,1\r\n"
+#Breadboard Button
 button5_received_on = "5,1\r\n"
 # The Button sends the serial message (node, action)
 # action: "1", "Button Pressed"
@@ -69,7 +74,8 @@ while True:
 	if serialcommand == button1_received_on:
 		print "We've Got Mail from Button 1!"
 		mc.postToChat("We've Got Mail from Button 1! It says: " + serialcommand)
-		mc.postToChat("Building...")
+		mc.postToChat("Hypothalamus Alert...")
+		mc.postToChat("Hypothalamus send messages to your team!")
 		makeSphere(400, 109, -1178, 10, 73)
 		sleep(0.5)
 		makeSphere(400, 109, -1178, 10, 0)
@@ -80,25 +86,25 @@ while True:
 		print "We've Got Mail from Button 2!"
 		makeSand2(332, 99, -1160, 12)
 		mc.postToChat("We've Got Mail from Button 2!")
-		mc.postToChat("Building...")
+		mc.postToChat("Increasing Skin Temp 2!")
 		#openDoor2(612, 3, -452)
 	elif serialcommand == button3_received_on:
 		print "We've Got Mail from Button 3!"
 		mc.postToChat("We've Got Mail from Button 3!")
-		mc.postToChat("Building...")
+		mc.postToChat("Increasing Skin Temp 1!")
 		makeSand1(285, 99, -1160, 12)
 		#openDoor3(613, 3, -436)
 	elif serialcommand == button4_received_on:
 		print "We've Got Mail from Button 4!"
 		mc.postToChat("We've Got Mail from Button 4!")
-		mc.postToChat("Building...")
+		mc.postToChat("Reducing sand content/temperature!")
 		#openDoor4(597, 3, -435)
 		removeSand(332, 89, -1160, 0)
 		removeSand(285, 89, -1160, 0)
 	elif serialcommand == button5_received_on:
 		print "We've Got Mail from Reset Button 5!"
-		mc.postToChat("We've Got Mail from Button 4!")
-		mc.postToChat("Clearing...")
+		mc.postToChat("We've Got Mail from Button 5!")
+		mc.postToChat("GAME OVER!")
 		#makeDoor1(596, 3, -451)
 		#makeDoor2(612, 3, -452)
 		#makeDoor4(597, 3, -435)

@@ -12,23 +12,38 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
 
 ####Performing Thermoregulation
 
- * We are going to split into groups
+ * We are going to split into 2 groups
 
+####Temperature Stimulus Team
 
- * CloudMaker01 - CloudMaker05 Temperature rising Hypothalamus group 
-  * `tp skintemp1`
+ * CloudMaker01 - CloudMaker04 Temperature rising Hypothalamus group 
+  * `/warp skintemp1` to get to your area
 
-It's your job to be the stimulus in the system, in this case we are representing temperature through glass silos with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **too hot** ie the Dermis and other parts of the nervous system will send signals to the **Hypothalamus** to react. 
+It's your job to be the stimulus in the system, in this case we are representing temperature through glass *silos* with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **too hot** ie the Dermis and other parts of the nervous system will send signals to the **Hypothalamus** to react.
 
- * CloudMaker06 - CloudMaker09 
+ * Use the `GREEN` & `YELLOW` RF-Craft Buttons to fill the 2 Temperature silos with sand. The trigger point is the centre top of each silo
+ * Once we have triggered the response you need to wait from orders from Hypothalamus
+ * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
+ * Please respond to the Hypothalamus or your bacterial mega-community will die!
+
+####Hypothalamus Team
+
+ * CloudMaker07 - CloudMaker09 & CloudMaker 
   * `warp hair`
 
 This team are effectively the **Hypothalamus** team and act out in the game the  autonomous nervous system's response to rises in temperature. This is the start of the negative feedback 'system'
 
 The silo **SkinTemp1** triggers the dermis hair response; hair standing up conserves heat from the Dermis, if too hot the hair's in the dermis muscle is relaxed so they lay flat on the skin 
 
+The silo **SkinTemp2** triggers the epidermal vascular response; blood vessels near the skin surface constrict and blood flows deeper in the skin to conserve heat. 
+If too hot blood vessels near the skin surface dilate and blood flows closer to  the skin surface to lose heat, in the game the red wool is thicker beneath the glass blocks in the `hair` area, and in reality pale skinned people go pink!
 
-The silo **SkinTemp2** triggers the dermis vascular system response; blood vessels near the surface of the skin contract to keep blood away from the skin surface, to conserve heat,  if too hot the blood vessels in the upper dermis relax so the blood flows near the epidermis to lose heat. That's why pale coloured skin goes pink and red during exercise. 
+ * CloudMaker05 - 06
+Keep an eye on all things you are the Hypothalamus! Hit the red button to trigger a Hypothalamus redstone ore sphere to flash in the dermis area and send messages to your team.
+
+Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the SkinTemp team to use the `BLUE` button
+
+
 
  * Use `ScriptCraft` to make sweat response
 

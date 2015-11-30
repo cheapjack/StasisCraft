@@ -3,25 +3,86 @@
  
 ![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
-Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2` with `mc.fact.uk`
+Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2` with the server `mc.fact.uk`
 
 
 ###Activity
 
-To get to the StasisCraft zone you need to `/warp stasiscraft`
+####Revisiting Thermoregulation zone
+
+ 1. Sit in groups at the breakout tables with some paper and whiteboard
+ * Introduce Minecraft for those who have not played it.
+ * Explain the **Performing Thermoregulation game** again
+ * Play through
+
+#####Thermo-Regulation Game
+
+to get to the StasisCraft zone you need to `/warp stasiscraft`
+
+####Performing Thermoregulation
+
+ * We are going to split into 2 groups
+
+####Temperature Stimulus Team
+
+ * CloudMaker01 - CloudMaker04 Temperature rising Hypothalamus group 
+  * `/warp skintemp1` to get to your area
+
+It's your job to be the stimulus in the system, in this case we are representing temperature through glass *silos* with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **too hot** ie the Dermis and other parts of the nervous system will send signals to the **Hypothalamus** to react.
+
+ * Use the `GREEN` & `YELLOW` RF-Craft Buttons to fill the 2 Temperature silos with sand. The trigger point is the centre top of each silo
+ * Once we have triggered the response you need to wait from orders from Hypothalamus
+ * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
+ * Please respond to the Hypothalamus or your bacterial mega-community will die!
+
+####Hypothalamus Team
+
+ * CloudMaker07 - CloudMaker09 & CloudMaker 
+  * `warp hair`
+
+This team are effectively the **Hypothalamus** team and act out in the game the  autonomous nervous system's response to rises in temperature. This is the start of the negative feedback 'system'
+
+Your main task is to perform the sweat response with water buckets following the Dermis hair and vascular responses. Listen to your Hypothalamus commands and once youve made enough 'sweat' you can remove it by using the `/drain 100` command near the water. You will need to be op to do that so choose one person and request this from the `sysadmin`
+
+The silo **SkinTemp2** triggers the epidermal vascular response; blood vessels near the skin surface constrict and blood flows deeper in the skin to conserve heat. 
+If too hot blood vessels near the skin surface dilate and blood flows closer to  the skin surface to lose heat, in the game the red wool is thicker beneath the glass blocks in the `hair` area, and in reality pale skinned people go pink!
+
+ * CloudMaker05 - 06
+Keep an eye on all things you are the Hypothalamus! Hit the red button to trigger a Hypothalamus redstone ore sphere to flash in the dermis area and send messages to your team.
+
+Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the SkinTemp team to use the `BLUE` button
+
+###Game - Over
+
+Hypothalamus can call game over and we can break away from our computers and disconnect from the game.
+
+###Hypothalamus Radio
+
+RF-Craft is a CloudMaker resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
+
+We are using the RF-Craft Buttons to trigger certain events:
+ * RED - **Hypothalamus Alert** Builds a hypothalamus shaped redstone ore sphere as an alert
+ * GREEN - **SkinTemp1 Silo Increase** Fills the SkinTemp1 silo with sand to visualise increase in temperature
+ * YELLOW - **SkinTemp2 Silo Increase** Fills the SkinTemp2 silo with sand to visualise increase in temperature
+ * BLUE - **Decrease Temperature** Removes sand from both silos to visualise decrease in temperature
+ 
+
+###Activity 2
 
 ####Labelling Thermoregulation
  
   * Labelling and modding the dermis landscape model
 
+###Activity 3
+
 ####Building Parkour FlowCharts
 
  * Use `ScriptCraft` to build flowcharts
 
-Format is `/js box("35:4", x (east/west, y, z (north/south)` but you always need to build a start block to refer from: look at the block and run the command to build from that point
+Format is `/js box("35:4", x (east/west coordinate, y (up or down coordinate), z (north/south coordinate)` but you always need to build from a start block, the one you are **looking** at to refer from: look at the block and run the command to build from that point
 
-You can also add up() and down() functions before you start to 
-so `/js up(2).box("35:14", 10, 6, 2)` builds a box 10 across, 6 high and 2 thickness/depth)
+You can also add `/up()` and `down()` functions before you start to 
+so `/js up(2).box("35:14", 10, 6, 2)` builds a box 10 across, 6 high and 2 thickness/depth) after moving up 2 blocks from the one you are looking at.
 
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
@@ -29,6 +90,33 @@ so `/js up(2).box("35:14", 10, 6, 2)` builds a box 10 across, 6 high and 2 thick
 ####Hypothalamus Says 
 
 (using `/say` & `/whisper` commands)
+
+####Minecraft 101
+
+It's a building game that uses these basic controls:
+
+ * `MENU` - `esc` then customise controls in `OPTIONS` or use defaults below
+ * `UP` - `w`
+ * `DOWN` - `s`
+ * `LEFT` - `a`
+ * `RIGHT` - `s`
+ * `JUMP` - `SPACE`
+ * `FLY` - double-hit the `SPACE` bar and hold it to fly 
+  * use `SHIFT` to descend and another double-hit on `SPACE` to fall
+ * `BUILD` - `right-click` on the `MOUSE`
+ * `BREAK` - `left-click` on the `MOUSE`
+ * `SELECT` - custom key
+ * `INVENTORY` - `e`
+
+Typing `/` will open the minecraft chat/terminal window where you can issue commands like
+
+ * `/say Hello` - Say Hello to the server
+ * `/whisper <message> <playername>` - Whisper something directly to another player
+ * `/warp <warplocation>` - Warp to specific warp locations, we use:
+  * `/warp hair` , `/warp skintemp1` , `/warp stasiscraft
+ * `/js box(20)` build a glass box on the block you are looking at
+ * `/` then `delete` the forward slash to just talk to the server
+
 
 ####ScriptCraft Reference
 Get the full info on github from http://scriptcraftjs.org/

@@ -91,6 +91,9 @@ def DermisListener1(startx, starty, startz, dermisno):
 		HairDown(394, 89, -1150, 20, 35, 12)
 		if not dermisfull:
 			mc.postToChat("WARNING! Dermis Sensor" + str(dermisno) + " is full!")
+			mc.postToChat("Triggering dermis Hair response")
+			mc.postToChat("Hypothalamus you need to reduce temperature!")
+			mc.postToChat("Hypothalamus, direct your response team!")
 			sleep(0.5)
 			HairDown(394, 89, -1150, 20, 35, 12)
 			sleep(0.5)
@@ -118,6 +121,7 @@ def DermisListener2(startx, starty, startz, dermisno):
 		#HairUp(394, 89, -1150, 20, 35, 12)
 		if not dermisfull2:
 			mc.postToChat("WARNING! Dermis Sensor" + str(dermisno) + " is full!")
+			mc.postToChat("Hypothalamus you need to reduce temperature!")
 			sleep(0.5)
 			VasoDilate(393, 87, -1161, 4, 35, 14)
 			sleep(0.5)
@@ -133,15 +137,19 @@ def DermisListener2(startx, starty, startz, dermisno):
 			sleep(5)
 
 
-# First block
+# Build First blocks
 # The MemoryCloud needs more x and less z to centre it
+# Overwrite Memory Text
 #MemoryCloud1(288, 105, -1164, 20, 12, 2, 35, 8)
-#DermisTemperatureBlock(285, 89, -1160, 4, 10, 35, 4)
+DermisTemperatureBlock(285, 89, -1160, 4, 10, 35, 4)
 # Second block
 #MemoryCloud1(334, 105, -1164, 20, 12, 2, 35, 6)
-#DermisTemperatureBlock(332, 89, -1160, 4, 10, 35, 4)
-
+DermisTemperatureBlock(332, 89, -1160, 4, 10, 35, 4)
+# Draw window into epidermis to observe vaso-dilation
+VasoDilate(393, 88, -1161, 4, 20, 0)
+# Draw a sweat example
 #Sweat(399, 84, -1176, 5, 8) 
+#Main Loop
 
 while True:
 	#Make a DermisListeners() and listen
@@ -154,7 +162,6 @@ while True:
 	DermisListener2(334, 99, -1158, 2)
 	#DermisListener2(332, 99, -1155, 4, 10, 1)
 	#DermisListener3(332, 89, -1160, 4, 10, 2)
-#Main Loop
 
 #while True:
 	# Remember your chart is (x_coord, x_coord, x_coord, chartwidth, dermisheight, block block id(usually 0)) 
