@@ -73,10 +73,10 @@ Hypothalamus can call game over and we can break away from our computers and dis
 RF-Craft is a [CloudMaker](https://github.com/cheapjack/CloudMaker/) resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
 
 We are using the RF-Craft Buttons to trigger certain events:
- * RED - **Hypothalamus Alert** Builds a hypothalamus shaped redstone ore sphere as an alert
+ * RED - **Hypothalamus Alert** Builds a hypothalamus shaped redstone ore sphere as an alert in the Osmo warp area
  * GREEN - **Glucose Silo Increase** Fills the Glucose silo with sand to visualise increase in glucose levels
  * YELLOW - **Water Levels Silo Increase** Fills the Water Levels silo with sand to visualise increase in water levels
- * BLUE - **Decrease Temperature** Removes sand from both silos to visualise decrease in water levels and glucose levels.
+ * BLUE - **Decrease Water and Glucose** Removes sand from both silos to visualise decrease in water levels and glucose levels.
  
 
 ###Activity 2
