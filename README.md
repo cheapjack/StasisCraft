@@ -1,7 +1,7 @@
 # StasisCraft
 ## FACT/CloudMaker resources for Teaching and Engaging with KS4 HomeoStasis through game culture frameworks: Minecraft
 
-Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2`
+Uses Minecraft PC client version `1.7.9` 
 
 ![stasiscraft1](https://cloud.githubusercontent.com/assets/128456/11131628/71af0ff4-8983-11e5-88ad-90708e86d6ee.png)
 
