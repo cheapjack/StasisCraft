@@ -106,6 +106,11 @@ This builds minecraft style text "MY MESSAGE" from the block you are looking at 
 
  * Use `ScriptCraft` to build stairs between the flow charts to make a **parkour** style map which players have to complete.
 
+To build an oak staircase 3 blocks wide and 5 blocks tall:
+
+`/js stairs(blocks.stairs.oak, 3, 5)`
+
+Staircases do not have any blocks beneath them.
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
 
