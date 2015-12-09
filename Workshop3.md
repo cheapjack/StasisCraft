@@ -1,58 +1,68 @@
-# StasisCraft Workshop 2
-## Visualising Homeostasis: Body Temperature
+# StasisCraft Workshop 3
+## Visualising Homeostasis: Osmo-Regulation and Blood sugar
  
 ![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
 Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2` with the server `mc.fact.uk`
 
+Following some game co-design around osmo-regualtion , thermo-regulation and other negative feedback systems in the human body like the hormonal regulation of blood sugar with **insulin** and the **pituitary gland** 
 
 ###Activity
 
-####Revisiting Thermoregulation zone
+####Osmo-regulation zone
 
  1. Sit in groups at the breakout tables with some paper and whiteboard
- * Introduce Minecraft for those who have not played it.
- * Explain the **Performing Thermoregulation game** again
+ * Explain the **Performing Osmo-regulation game** based on the co-design notes from last session, again with RF-Craft and mcpi
+  * Use `RF-Craft-Water.py` and `Osmo1.py` in the repo
  * Play through
 
 ####Thermo-Regulation Game
 
-to get to the StasisCraft zone you need to `/warp stasiscraft`
+to get to the StasisCraft zone you need to `/warp stasiscraft` and to get to the Osmo-regulation area it's `/warp osmo`
 
-####Performing Thermoregulation
+####Performing Osmo-regulation
 
- * We are going to split into 2 groups
+ * As before split into 2 groups
 
-####Temperature Stimulus Team
+#### Stimulus Team
 
  * CloudMaker01 - CloudMaker04 Temperature rising Hypothalamus group 
-  * `/warp skintemp1` to get to your area
+  * `/warp osmo1` to get to your area
 
-It's your job to be the stimulus in the system, in this case we are representing temperature through glass *silos* with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **too hot** ie the Dermis and other parts of the nervous system will send signals to the **Hypothalamus** to react.
+It's your job to be the stimulus in the system, in this case we are representing water levels in the blood through the same glass *silos* with giant flowchart labels. When the silo is full (top centre block) of sand it will be marked as **dangerous water levels** ie the autonomous nervous system will send signals to the **Hypothalamus** to react:
 
-You will use the [RF-Craft](https://github.com/cheapjack/StasisCraft/blob/master/Workshop2.md#hypothalamus-radio) buttons like a **Hypothalamus radio** stimulaing the system to increase temperature, and then responding to the Hypothalamus alerts and commands. You need to **STIMULATE** then **LISTEN** to the feedback response or you will all die...
+The pituitary gland controls blood water concentration, this gland produces the hormone ADH. ADH is carried by the blood to the kidneys and increases the permeability of the kidney tubules allowing water to be reabsorbed from the tubules into the blood.
 
- * Use the `GREEN` & `YELLOW` RF-Craft Buttons to fill the 2 Temperature silos with sand. The trigger point is the centre top of each silo
+ * If blood water concentration falls, more water reabsorption is needed so that less water is lost as urine. ADH production is increased.
+ * If blood water concentration rises, less water reabsorption is needed so that more water is lost as urine. ADH production is decreased.
+
+You will use the [RF-Craft](https://github.com/cheapjack/StasisCraft/blob/master/Workshop2.md#hypothalamus-radio) buttons like a **Hypothalamus radio** stimulaing the system to increase water levels, and then respond to the Hypothalamus alerts and commands. You need to **STIMULATE** then **LISTEN** to the feedback response or you will all die...
+
+ * Use the `GREEN` & `YELLOW` RF-Craft Buttons to fill the 2 Water content silos with sand. The trigger point is the centre top of each silo
  * Once we have triggered the response you need to wait from orders from Hypothalamus
- * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
+ * Hypothalamus orders with `/say Hypo says reduce Water content` or `/say Hype says use BLUE button to stimulate ADH`
  * Please respond to the Hypothalamus or your bacterial mega-community will die!
 
 ####Hypothalamus Team
 
  * CloudMaker07 - CloudMaker09 & CloudMaker 
-  * `/warp hair`
+  * `/warp tubules`
 
-This team are effectively the **Hypothalamus** team and act out in the game the  autonomous nervous system's response to rises in temperature. This is the start of the negative feedback 'system'
+This team are effectively the **Hypothalamus** team and act out in the game the  autonomous nervous system's response to rises in water levels and glucose. This is the start of the negative feedback 'system'
 
-Your main task is to perform the sweat response with water buckets following the Dermis hair and vascular responses. Listen to your Hypothalamus commands and once youve made enough 'sweat' you can remove it by using the `/drain 100` command near the water. You will need to be op to do that so choose one person and request this from the `sysadmin`
+Your main task is to perform the water loss response with water buckets in the silo next to the purple liver model following the circle responses which represent increases in permeability of kidney tubules. 
 
-The silo **SkinTemp2** triggers the epidermal vascular response; blood vessels near the skin surface constrict and blood flows deeper in the skin to conserve heat. 
-If too hot blood vessels near the skin surface dilate and blood flows closer to  the skin surface to lose heat, in the game the red wool is thicker beneath the glass blocks in the `hair` area, and in reality pale skinned people go pink!
+Listen to your Hypothalamus commands and once youve made enough 'urine' you can remove it by using the `/drain 100` command near the water. You will need to be op to do that so choose one person and request this from the `sysadmin`
+
+The silo **Water Levels** triggers the kidneys to increase permeability, represented as a growing circle influenced by the hormone **ADH** from the **pituitary gland**. The blood cell model also grows fatter than usual as they can swell with water content.
+
+The silo **Glucose Levels** triggers the Pancreas to release the **hormone** **insulin** to stimulate the Liver to convert **glucose** to **glucagen** and to be absorbed by cells in the body. We've visualised this by making a purple Liver 'activate' by turning into orange wool.
+
 
  * CloudMaker05 - 06
-Keep an eye on all things you are the Hypothalamus! Hit the red button to trigger a Hypothalamus redstone ore sphere to flash in the dermis area and send messages to your team.
+Keep an eye on all things you are the Hypothalamus! Hit the red button to trigger a Hypothalamus redstone ore sphere to flash in the Osmo area and send messages to your team.
 
-Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the SkinTemp team to use the `BLUE` button
+Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the Water level team to use the `BLUE` button
 
 ###Game - Over
 
@@ -64,9 +74,9 @@ RF-Craft is a [CloudMaker](https://github.com/cheapjack/CloudMaker/) resource th
 
 We are using the RF-Craft Buttons to trigger certain events:
  * RED - **Hypothalamus Alert** Builds a hypothalamus shaped redstone ore sphere as an alert
- * GREEN - **SkinTemp1 Silo Increase** Fills the SkinTemp1 silo with sand to visualise increase in temperature
- * YELLOW - **SkinTemp2 Silo Increase** Fills the SkinTemp2 silo with sand to visualise increase in temperature
- * BLUE - **Decrease Temperature** Removes sand from both silos to visualise decrease in temperature
+ * GREEN - **Glucose Silo Increase** Fills the Glucose silo with sand to visualise increase in glucose levels
+ * YELLOW - **Water Levels Silo Increase** Fills the Water Levels silo with sand to visualise increase in water levels
+ * BLUE - **Decrease Temperature** Removes sand from both silos to visualise decrease in water levels and glucose levels.
  
 
 ###Activity 2
