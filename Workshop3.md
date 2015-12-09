@@ -3,7 +3,7 @@
  
 ![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
-Uses Minecraft PC client version `1.7.9` running `Bukkit-1.7.2` with the server `mc.fact.uk`
+Uses Minecraft PC client version `1.7.9` with the server `mc.fact.uk`
 
 Following some game co-design around osmo-regualtion , thermo-regulation and other negative feedback systems in the human body like the hormonal regulation of blood sugar with **insulin** and the **pituitary gland** 
 
