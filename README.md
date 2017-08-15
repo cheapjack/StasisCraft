@@ -5,11 +5,11 @@ Uses Minecraft PC client version `1.7.9`
 
 ![stasiscraft1](https://cloud.githubusercontent.com/assets/128456/11131628/71af0ff4-8983-11e5-88ad-90708e86d6ee.png)
 
-###QuickStart
+### QuickStart
 
 To get to the StasisCraft zone you need to `/warp stasiscraft`
 
-###Features
+### Features
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
 
@@ -19,7 +19,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
  * Radio controlled minecraft `Science` buttons with `RF-Craft`
  * Redstone Homeostasis models
 
-###Built with 
+### Built with 
 
 ![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
@@ -32,7 +32,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
 
 ![CloudMaker](https://github.com/cheapjack/cheapjack.github.io/blob/master/tumblr_files/Cloudmaker.png)
 
-###Background
+### Background
 
 CloudMaker and [The Minecraft Of Things](http://minecraftofthings.tumblr.com) sprang from research with [FACT](http://fact.co.uk/), [Dr Mark Wright](https://twitter.com/dr_mark_wright), [Adrian McEwen](http://www.mcqn.com/) and Paul Harter of [PrintCraft](http://www.printcraft.org/) funded by [IT as a Utility (ITaaU) Network](http://www.itutility.ac.uk) for the [CloudMaker](http://www.fact.co.uk/projects/cloudmaker-making-minecraft-real.aspx) project
 
