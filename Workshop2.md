@@ -6,24 +6,24 @@
 Uses Minecraft PC client version `1.7.9` with the server `mc.fact.uk`
 
 
-###Activity
+### Activity
 
-####Revisiting Thermoregulation zone
+#### Revisiting Thermoregulation zone
 
  1. Sit in groups at the breakout tables with some paper and whiteboard
  * Introduce Minecraft for those who have not played it.
  * Explain the **Performing Thermoregulation game** again
  * Play through
 
-####Thermo-Regulation Game
+#### Thermo-Regulation Game
 
 to get to the StasisCraft zone you need to `/warp stasiscraft`
 
-####Performing Thermoregulation
+#### Performing Thermoregulation
 
  * We are going to split into 2 groups
 
-####Temperature Stimulus Team
+#### Temperature Stimulus Team
 
  * CloudMaker01 - CloudMaker04 Temperature rising Hypothalamus group 
   * `/warp skintemp1` to get to your area
@@ -37,7 +37,7 @@ You will use the [RF-Craft](https://github.com/cheapjack/StasisCraft/blob/master
  * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
  * Please respond to the Hypothalamus or your bacterial mega-community will die!
 
-####Hypothalamus Team
+#### Hypothalamus Team
 
  * CloudMaker07 - CloudMaker09 & CloudMaker 
   * `/warp hair`
@@ -54,11 +54,11 @@ Keep an eye on all things you are the Hypothalamus! Hit the red button to trigge
 
 Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the SkinTemp team to use the `BLUE` button
 
-###Game - Over
+### Game - Over
 
 Hypothalamus can call game over and we can break away from our computers and disconnect from the game.
 
-###RF-Craft: The Hypothalamus Radio
+### RF-Craft: The Hypothalamus Radio
 
 RF-Craft is a [CloudMaker](https://github.com/cheapjack/CloudMaker/) resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
 
@@ -69,15 +69,15 @@ We are using the RF-Craft Buttons to trigger certain events:
  * BLUE - **Decrease Temperature** Removes sand from both silos to visualise decrease in temperature
  
 
-###Activity 2
+### Activity 2
 
-####Labelling Thermoregulation
+#### Labelling Thermoregulation
  
   * Labelling and modding the dermis landscape model
 
-###Activity 3
+### Activity 3
 
-####Building Parkour FlowCharts
+#### Building Parkour FlowCharts
 
  * Use `ScriptCraft` to build flowcharts
 
@@ -99,11 +99,11 @@ This builds minecraft style text "MY MESSAGE" from the block you are looking at 
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
 
-####Hypothalamus Says 
+#### Hypothalamus Says 
 
 (using `/say` & `/whisper` commands)
 
-####Minecraft 101
+#### Minecraft 101
 
 It's a building game that uses these basic controls:
 
@@ -130,7 +130,7 @@ Typing `/` will open the minecraft chat/terminal window where you can issue comm
  * `/` then `delete` the forward slash to just talk to the server
 
 
-####ScriptCraft Reference
+#### ScriptCraft Reference
 Get the full info on github from http://scriptcraftjs.org/
 
 Shapes
@@ -144,7 +144,7 @@ Shapes
 
 Just substitute 'block.material' for 'block.wool.red' or 'block.ice' or 'block.brick.red' type /js block. then use tab to see the different materials autocomplete in the command line
 
-Movement
+### Movement
 
 The 'drone' is the invisible cursor that 'builds' things in minecraft; whatever block is highlighted as you look at it is the drone start position. You can combine commands by using a dot between commands. So /js box(block.ice).right(2).box(block.ice, 2,2,2) makes a single block of ice, moves 2 blocks to the right and makes a 2x2x2 block of ice
 

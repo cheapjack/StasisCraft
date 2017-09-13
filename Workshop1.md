@@ -6,11 +6,11 @@
 Uses Minecraft PC client version `1.7.9`
 
 
-###Activity
+### Activity
 
 To get to the StasisCraft zone you need to `/warp stasiscraft`
 
-####Performing Thermoregulation
+#### Performing Thermoregulation
 
  * We are going to split into 2 groups
 
@@ -26,7 +26,7 @@ It's your job to be the stimulus in the system, in this case we are representing
  * Hypothalamus orders with `/say Hypo says reduce SkinTemp1` or `/say Hype says reduce SkinTemp2 with BLUE button`
  * Please respond to the Hypothalamus or your bacterial mega-community will die!
 
-####Hypothalamus Team
+#### Hypothalamus Team
 
  * CloudMaker07 - CloudMaker09 & CloudMaker 
   * `warp hair`
@@ -47,7 +47,7 @@ Primarily the team simulates the sweat response. Once the dermis is sufficiently
 
  * Use `ScriptCraft` to make sweat response
 
-###Hypothalamus Radio
+### Hypothalamus Radio
 
 RF-Craft is a CloudMaker resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
 

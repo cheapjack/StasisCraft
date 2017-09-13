@@ -7,16 +7,16 @@ Uses Minecraft PC client version `1.7.9` with the server `mc.fact.uk`
 
 Following some game co-design around osmo-regualtion , thermo-regulation and other negative feedback systems in the human body like the hormonal regulation of blood sugar with **insulin** and the **pituitary gland** 
 
-###Activity
+### Activity
 
-####Osmo-regulation zone
+#### Osmo-regulation zone
 
  1. Sit in groups at the breakout tables with some paper and whiteboard
  * Explain the **Performing Osmo-regulation game** based on the co-design notes from last session, again with RF-Craft and mcpi
   * Use `RF-Craft-Water.py` and `Osmo1.py` in the repo
  * Play through
 
-####Thermo-Regulation Game
+#### Thermo-Regulation Game
 
 to get to the StasisCraft zone you need to `/warp stasiscraft` and to get to the Osmo-regulation area it's `/warp osmo`
 
@@ -43,7 +43,7 @@ You will use the [RF-Craft](https://github.com/cheapjack/StasisCraft/blob/master
  * Hypothalamus orders with `/say Hypo says reduce Water content` or `/say Hype says use BLUE button to stimulate ADH`
  * Please respond to the Hypothalamus or your bacterial mega-community will die!
 
-####Hypothalamus Team
+#### Hypothalamus Team
 
  * CloudMaker07 - CloudMaker09 & CloudMaker 
   * `/warp tubules`
@@ -64,11 +64,11 @@ Keep an eye on all things you are the Hypothalamus! Hit the red button to trigge
 
 Primarily the team simulates the sweat response. Once the dermis is sufficiently flooded use the chat to tell the Water level team to use the `BLUE` button
 
-###Game - Over
+### Game - Over
 
 Hypothalamus can call game over and we can break away from our computers and disconnect from the game.
 
-###RF-Craft: The Hypothalamus Radio
+### RF-Craft: The Hypothalamus Radio
 
 RF-Craft is a [CloudMaker](https://github.com/cheapjack/CloudMaker/) resource that sends messages through concrete using the  868MHz amateur radio band as an alternative to managed WiFi
 
@@ -79,15 +79,15 @@ We are using the RF-Craft Buttons to trigger certain events:
  * BLUE - **Decrease Water and Glucose** Removes sand from both silos to visualise decrease in water levels and glucose levels.
  
 
-###Activity 2
+### Activity 2
 
-####Labelling Thermoregulation
+#### Labelling Thermoregulation
  
   * Labelling and modding the dermis landscape model
 
-###Activity 3
+### Activity 3
 
-####Building Parkour FlowCharts
+#### Building Parkour FlowCharts
 
  * Use `ScriptCraft` to build flowcharts
 
@@ -114,7 +114,7 @@ Staircases do not have any blocks beneath them.
 
 ![hypothalamus_small](https://cloud.githubusercontent.com/assets/128456/11132490/17ac85fe-8988-11e5-8daf-c4e3992d1681.gif)
 
-####Hypothalamus Says 
+#### Hypothalamus Says 
 
 (using `/say` & `/whisper` commands)
 
@@ -145,7 +145,7 @@ Typing `/` will open the minecraft chat/terminal window where you can issue comm
  * `/` then `delete` the forward slash to just talk to the server
 
 
-####ScriptCraft Reference
+#### ScriptCraft Reference
 Get the full info on github from http://scriptcraftjs.org/
 
 Shapes
@@ -159,7 +159,7 @@ Shapes
 
 Just substitute 'block.material' for 'block.wool.red' or 'block.ice' or 'block.brick.red' type /js block. then use tab to see the different materials autocomplete in the command line
 
-Movement
+### Movement
 
 The 'drone' is the invisible cursor that 'builds' things in minecraft; whatever block is highlighted as you look at it is the drone start position. You can combine commands by using a dot between commands. So /js box(block.ice).right(2).box(block.ice, 2,2,2) makes a single block of ice, moves 2 blocks to the right and makes a 2x2x2 block of ice
 

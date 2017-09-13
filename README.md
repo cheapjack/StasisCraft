@@ -1,7 +1,10 @@
 # StasisCraft
 ## FACT/CloudMaker resources for Teaching and Engaging with KS4 HomeoStasis through game culture frameworks: Minecraft
 
-Uses Minecraft PC client version `1.7.9` 
+![version badge](https://img.shields.io/badge/bukkit-v1.7.9-blue.svg?style=flat-square)
+![Subject area and key stage badge](https://img.shields.io/badge/biology-ks4-yellowgreen.svg?style=flat-square)
+
+Minecraft mini-games co-designed with KS4 biology students to aid understanding of Homeostasis, which is difficult to model experimentally in the classroom.
 
 ![stasiscraft1](https://cloud.githubusercontent.com/assets/128456/11131628/71af0ff4-8983-11e5-88ad-90708e86d6ee.png)
 
@@ -16,7 +19,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
  * Auto changing Body Temperature and Blood Water Content Graphs
  * Hypothalamus Listener code
  * Shrimped Breadboard arduino analog inputs
- * Radio controlled minecraft `Science` buttons with `RF-Craft`
+ * Radio controlled minecraft `Science` buttons with [RF-Craft](https://github.com/cheapjack/RF-Craft)
  * Redstone Homeostasis models
 
 ### Built with 
@@ -24,7 +27,7 @@ To get to the StasisCraft zone you need to `/warp stasiscraft`
 ![stasiscraftdynmapsmall](https://cloud.githubusercontent.com/assets/128456/11134653/6ae6e364-8996-11e5-910b-b4cab7d953d9.png)
 
  * [FACT](http://www.fact.co.uk/projects/cloudmaker-making-minecraft-real.aspx) [CloudMaker](https://github.com/cheapjack/CloudMaker) Server
- * `Bukkit-1.7.2`
+ * `Bukkit-1.7.9`
  * `python 2.7.10`
  * **Martin O'Hanlon's** `mcpi` API
  * RaspberryJuice 1.3.2
